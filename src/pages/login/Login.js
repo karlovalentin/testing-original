@@ -27,8 +27,8 @@ class Login extends React.Component {
         super(props);
 
         this.state = {
-            email: 'admin@flatlogic.com',
-            password: 'password',
+            email: 'admin@flatlogic.comx',
+            password: 'passwordx',
         };
 
         this.doLogin = this.doLogin.bind(this);
@@ -85,7 +85,7 @@ class Login extends React.Component {
         return (
             <div className="auth-page">
                 <Container>
-                    <Widget className="widget-auth mx-auto" title={<h3 className="mt-0">Login to your Web App</h3>}>
+                    <Widget className="widget-auth mx-auto" title={<h3 className="mt-0">Welcome to WiWi Internet Monitor</h3>}>
                         <p className="widget-auth-info">
                             Use your email to sign in.
                         </p>
@@ -157,11 +157,8 @@ class Login extends React.Component {
                     </Widget>
                 </Container>
                 <footer className="auth-footer">
-<<<<<<< HEAD
-                    2020 &copy; Light Blue - React Admin Dashboard Template.
-=======
-                {new Date().getFullYear()} &copy; Light Blue - React Admin Dashboard Template. Made by <a href="https://flatlogic.com" rel="noopener noreferrer" target="_blank">Flatlogic LLC</a>
->>>>>>> 9e9aa184c64f1550cc100a583c8251a056bf1742
+                Experimental Monitor Dashboard WiWi Internet {new Date().getFullYear()}
+
                 </footer>
             </div>
         );
