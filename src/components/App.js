@@ -14,7 +14,9 @@ import ErrorPage from '../pages/error';
 import '../styles/theme.scss';
 import LayoutComponent from '../components/Layout';
 import DocumentationLayoutComponent from '../documentation/DocumentationLayout';
-import Login from '../pages/auth/login';
+//import Login from '../pages/auth/login';
+import Login from '../pages/auth/forgot';
+
 import Verify from '../pages/auth/verify';
 import Register from '../pages/auth/register';
 import Reset from '../pages/auth/reset';
