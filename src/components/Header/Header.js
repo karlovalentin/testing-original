@@ -239,7 +239,7 @@ class Header extends React.Component {
           <Dropdown nav isOpen={this.state.supportOpen} toggle={this.toggleSupportDropdown}>
             <DropdownToggle nav className={`${s.navItem} text-white`}>
               <i className="glyphicon glyphicon-globe" />
-              <span className={s.count}>8</span>
+              <span className={s.count}>10208</span>
             </DropdownToggle>
             <DropdownMenu right className={`${s.dropdownMenu} ${s.support}`}>
               <DropdownItem>
